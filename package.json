@@ -1,0 +1,16 @@
+{
+  "name": "cuntents",
+  "version": "0.0.1",
+  "description": "markdown table of contents generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harsilspatel",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "request": "^2.88.0"
+  }
+}
