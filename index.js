@@ -29,7 +29,7 @@ const request = require('request');
 //     // console.log(data.toString())
 // });
 
-var cuntent = 'TABLE OF CONTENT';
+var cuntent = 'TABLE OF CONTENTS\n=================\n';
 
 fs.readFile('./cunstitution.html', function read(err, content) {
     // if (err) {
@@ -43,13 +43,12 @@ fs.readFile('./cunstitution.html', function read(err, content) {
 
     a.each(function(i, elem) {
         const tag = $(this).get(0).name;
+        const depth = parseInt(tag.charAt(1));
+        const indent = '\t'.repeat(depth)
         const title = $(this).text().trim();
         const href = $(this).find('a').attr("href")
-        console.log(`${tag} [${title}](${href})`)
+        cuntent += (`\n${indent}* [${title}](${href})`)
     });
-
-
-
-    // const {document} = (new JSDOM(stringContent)).window;
-    // console.log(document)
+    console.log(cuntent)
 });
+
