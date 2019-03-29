@@ -1,36 +1,26 @@
-const fs = require('fs');
 const cheerio = require('cheerio')
-const jsdom = require("jsdom");
-const {JSDOM} = jsdom;
-const request = require('request');
+const atob = require('atob');
+/**
+ * This is the main entrypoint to your Probot app
+ * @param {import('probot').Application} app
+ */
+module.exports = app => {
+  // Your code here
+  app.log('Yay, the app was loaded!')
+  
 
-
-var cuntent = 'TABLE OF CONTENTS\n=================\n';
-
-
-fs.readFile('./cunstitution.md', function read(err, content) {
-    if (err) {
-        throw err;
-    }
-
-    const options = {
-        url: 'https://api.github.com/markdown/raw',
-        method: 'POST',
-        headers: {
-            'User-Agent': 'request',
-            'Content-Type': 'text/plain'
-        },
-        body: content
-    };
-
-    request(options, function (err, res, body) {
-        if (err) {
-            console.error('error posting json: ', err);
-            throw err
-        }
-
-        const $ = cheerio.load(body);
+  app.on('issues.opened', async context => {
+    context.github.repos.getReadme(context.repo()).then(result => {
+      console.log(result)
+      const body = atob(result.data.content);
+      context.github.markdown.render({text: body}).then(htmlBody => {
+        const $ = cheerio.load(htmlBody.data);
+        console.log(htmlBody)
         const headers = $(":header");
+
+        console.log(headers)
+
+        let cuntent = 'TABLE OF CONTENTS\n=================\n';
 
         headers.each(function (i, elem) {
             const tag = $(this).get(0).name;
@@ -38,10 +28,22 @@ fs.readFile('./cunstitution.md', function read(err, content) {
             const indent = '  '.repeat(depth);
             const title = $(this).text().trim();
             const href = $(this).find('a').attr("href");
-            cuntent += (`\n${indent}* [${title}](${href})`)
+            cuntent += `\n${indent}* [${title}](${href})`;
         });
+
         console.log(cuntent)
+        
+        const issue = context.issue({body: cuntent})
+        return context.github.issues.createComment(issue)
+      })
+      
     })
-});
 
+  })
 
+  // For more information on building apps:
+  // https://probot.github.io/docs/
+
+  // To get your app running against GitHub, see:
+  // https://probot.github.io/docs/development/
+}

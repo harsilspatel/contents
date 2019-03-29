@@ -1,17 +1,51 @@
 {
   "name": "cuntents",
-  "version": "0.0.1",
-  "description": "markdown table of contents generator",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "an app to auto generate toc for markdown",
+  "author": "harsilspatel <harsilspatel@gmail.com> (https://github.com/harsilspatel/cuntents)",
+  "license": "ISC",
+  "repository": "https://github.com/harsilspatel/cuntents.git",
+  "homepage": "https://github.com/harsilspatel/cuntents",
+  "bugs": "https://github.com/harsilspatel/cuntents/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "start": "probot run ./index.js",
+    "lint": "standard --fix",
+    "test": "jest && standard",
+    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
-  "author": "harsilspatel",
-  "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "fs": "0.0.1-security",
-    "http": "0.0.0",
-    "request": "^2.88.0"
+    "probot": "^7.2.0"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0",
+    "nock": "^10.0.0",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.2",
+    "standard": "^12.0.1"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "nodemonConfig": {
+    "exec": "npm start",
+    "watch": [
+      ".env",
+      "."
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
