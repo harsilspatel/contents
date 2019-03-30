@@ -20,7 +20,7 @@ module.exports = app => {
 
         console.log(headers)
 
-        let cuntent = 'TABLE OF CONTENTS\n=================\n';
+        let cuntent = '```\nTABLE OF CONTENTS\n=================\n';
 
         headers.each(function (i, elem) {
             const tag = $(this).get(0).name;
@@ -30,6 +30,8 @@ module.exports = app => {
             const href = $(this).find('a').attr("href");
             cuntent += `\n${indent}* [${title}](${href})`;
         });
+
+        cuntent += '\n```'
 
         console.log(cuntent)
         
