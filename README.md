@@ -1,14 +1,11 @@
-# cuntents
+cuntents
+========
 
-## hello
-lorem
-## wurld
-ipsum
-### how
-dolor
 
-#### are
-sit
-##### we
+🤖 **Cuntents** helps generate table of contents with ease.
 
-bleh
+# Usage
+
+1. Install the Cuntents GitHub App.
+2. Create your markdown(s).
+3. Open a new issue.
