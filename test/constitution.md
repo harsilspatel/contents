@@ -1,4 +1,4 @@
-# PART 1  — PRELIMINARY
+# PART 1 - PRELIMINARY
 ### 1. Name
 1. The Name of the Club shall be “Faculty of Information Technology Society.”
 2. The Club shall also be known as “FITS (Wired) Monash”.
@@ -36,7 +36,7 @@ ordinary member means a member referred to in rule 12(1);
 ordinary member entitled to vote means an ordinary member who under rule 12(2) is entitled to vote at a general meeting;
 Register of Members means the comprehensive list of Club members submitted to C&S in accordance with the C&S Affiliation Regulations;
 student means a person enrolled in a course of study administered at the Clayton Campus of the University. 
-# PART 2  — POWERS OF THE CLUB
+# PART 2 - POWERS OF THE CLUB
 ### 5. Powers of the Club
 1. The Club has power to do all things incidental or conducive to achieve its purposes, subject to any restrictions placed on it by the C&S Executive or in the C&S Constitution and Regulations.
 2. The Club may only exercise its powers and use its income and assets (including any surplus) for its purposes.
@@ -46,8 +46,8 @@ student means a person enrolled in a course of study administered at the Clayton
     1. reimbursement for expenses properly incurred by the member; or
     2. for goods or services provided by the member—
 if this is done in good faith on terms no more favourable than if the member was not a member.
-# PART 3  — MEMBERS, DISCIPLINARY PROCEDURES AND GRIEVANCES
-## Division 1  — Membership
+# PART 3 - MEMBERS, DISCIPLINARY PROCEDURES AND GRIEVANCES
+## Division 1 - Membership
 ### 7. Minimum number of members
 The Club must have at least 40 ordinary members.
 ### 8. Who is eligible to be a member
@@ -186,7 +186,7 @@ shall preside as chair for the duration of the disciplinary appeal meeting; and
 7. The decision is upheld if not less than two thirds of the ordinary members present at the disciplinary appeal meeting, excluding those listed in subrule (5), vote in favour of the decision.
 8. The Committee shall ensure that minutes of the disciplinary appeal meeting are taken and submitted to the C&S Executive within 7 days.
 9. A disciplinary appeal meeting shall not be considered to be a general meeting of the Club.
-## Division 3  — Grievance procedure
+## Division 3 - Grievance procedure
 ### 26. Application
 1. The grievance procedure set out in this Division applies to disputes under this constitution between—
     1. a member and another member;
@@ -214,7 +214,7 @@ The parties to a dispute must attempt to resolve the dispute between themselves 
 2. The mediator must not determine the dispute.
 ### 30. Failure to resolve dispute by mediation
 If the mediation process does not resolve the dispute, the C&S Executive may, on the application in writing of either party, determine the dispute. In determining the dispute, the C&S Executive must comply with the requirements of rule 29(1), in the same way as the mediator. 
-# PART 4  — GENERAL MEETINGS OF THE CLUB
+# PART 4 - GENERAL MEETINGS OF THE CLUB
 ### 31. Chairperson
 1. The President or, in the President’s absence, the Vice President, is the Chairperson for any general meetings.
 2. If the President and the Vice President are both absent, or are unable to preside, the Chairperson of the meeting must be an ordinary member elected by the other members present.
@@ -324,8 +324,8 @@ and an entry to that effect in the minutes of the meeting is conclusive proof of
     4. any resolution on which a vote is taken and the result of the vote; and
     5. the results of any elections held; and
     6. annual reports required under rule 47.
-# PART 5  — COMMITTEE
-## Division 1  — Powers of Committee
+# PART 5 - COMMITTEE
+## Division 1 - Powers of Committee
 ### 43. Role and powers
 1. The activities of the Club must be managed by or under the direction of a Committee.
 2. The Committee may exercise all the powers of the Club except those powers that this constitution or the C&S Constitution or Regulations requires to be exercised by general meetings of the members of the Club.
@@ -337,7 +337,7 @@ and an entry to that effect in the minutes of the meeting is conclusive proof of
     3. a duty imposed on the Committee by this constitution and the C&S Constitution and Regulations.
 2. The delegation must be in writing and may be subject to the conditions and limitations the Committee considers appropriate.
 3. The Committee may, in writing, revoke a delegation wholly or in part.
-## Division 2  — Composition of Committee and duties of members
+## Division 2 - Composition of Committee and duties of members
 ### 45. Composition of Committee
 1. The Committee shall consist of 13 committee members.
 2. The members of the Committee are—
@@ -443,7 +443,7 @@ so as to gain an advantage for themselves or any other person or to cause detrim
 Example: The Committee may resolve to appoint a Webmaster to manage the Club website, which requires a member with specific skills.
 2. Such positions shall be ancillary members of the Committee, but are not defined as committee members under this constitution.
 3. Ancillary members have the right to attend and speak at committee meetings and shall be bound by rule 46.
-## Division 3  — Election of Committee members and tenure of office
+## Division 3 - Election of Committee members and tenure of office
 ### 49. Who is eligible to be a Committee member
 A member is eligible to be elected or appointed as a committee member if the member—
     1. is an ordinary member entitled to vote under rule 12(2), and
@@ -532,7 +532,7 @@ The Committee may co-opt (appoint) an eligible ordinary member of the Club who i
     1. has become vacant under rule 56; or
     2. was not filled by election at the last annual general meeting—
 who shall hold office until the next general meeting of the Club.
-## Division 4  — Meetings of Committee
+## Division 4 - Meetings of Committee
 ### 59. Chairperson
 1. The President or, in the President’s absence, the Vice President, is the Chairperson for any committee meetings.
 2. If the President and the Vice President are both absent, or are unable to preside, the Chairperson of the meeting must be a committee member elected by the other committee members present.
@@ -587,7 +587,7 @@ Note: If there are insufficient committee members to form a quorum because a mem
 ### 69. Leave of absence
 1. The Committee may grant a committee member leave of absence from committee meetings for a period not exceeding 2 months.
 2. The Committee must not grant leave of absence retrospectively unless it is satisfied that it was not feasible for the committee member to seek the leave in advance.
-# PART 6  — FINANCIAL MATTERS
+# PART 6 - FINANCIAL MATTERS
 ### 70. Source of funds
 The funds of the Club may be derived from membership fees, donations, fund-raising activities, grants, interest, ticket sales and any other sources approved by the Committee.
 ### 71. Management of funds
@@ -606,7 +606,7 @@ The funds of the Club may be derived from membership fees, donations, fund-raisi
 2. Without limiting subrule (1), those requirements include—
     1. the preparation of the financial statements; and
     2. timely submission and adherence to due dates.
-# PART 7  — GENERAL MATTERS
+# PART 7 - GENERAL MATTERS
 ### 74. Registered address
 The registered address of the Club is the official mailing address for C&S affiliated clubs, as defined in the C&S Affiliation Regulations.
 ### 75. Notice requirements
